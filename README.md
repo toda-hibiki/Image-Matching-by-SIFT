@@ -5,6 +5,8 @@ Overview
 
 SIFTによる画像間のマッチングを行います。2019年春より、特許が切れたので、更に使われることになると考えています。  
 また、OpenCV3から、実行に、opencv-contribが必要になりました。
+SIFTによるマッチングにRANSACを適用しています。　　
+RANSACを計算する際にホモグラフィ変換行列を求めているので、画像がどれだけ回転しているかの情報を得ることができます。　　
 
 Environment
 -
@@ -12,7 +14,9 @@ Environment
 Python3.6  
 OpenCV-python:3.4.2.17  
 OpenCV-contrib-python:3.4.2.17  
-*OpenCVとOpenCV-contribのバージョンは合わせる必要がある  
+*OpenCVとOpenCV-contribのバージョンは合わせる必要がある　　
+numpy  
+matplotlib  
 
 Procedure
 -
