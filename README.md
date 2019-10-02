@@ -14,7 +14,7 @@ Environment
 Python3.6  
 OpenCV-python:3.4.2.17  
 OpenCV-contrib-python:3.4.2.17  
-*OpenCVとOpenCV-contribのバージョンは合わせる必要がある  　　
+*OpenCVとOpenCV-contribのバージョンは合わせる必要がある  
 numpy  
 matplotlib  
 
